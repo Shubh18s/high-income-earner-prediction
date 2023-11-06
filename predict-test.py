@@ -3,10 +3,11 @@
 
 import requests
 
-url = 'http://localhost:5000/predict'
+# url = 'http://localhost:5000/predict'
+url = 'https://high-income-prediction-image-mj4wgddl6q-uc.a.run.app/predict'
 
 customer_id = 'xyz-123'
-person = {'workclass': 'private',
+person = {'workclass': 'public',
   'education': '11th',
   'marital_status': 'never_married',
   'occupation': 'machine_op_inspct',

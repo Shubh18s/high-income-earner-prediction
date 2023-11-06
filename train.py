@@ -51,7 +51,6 @@ def read_prepare_data(filename: str, is_test_data: bool = False):
     else:
         df['income>50k'] = (df['income'] == '>50k').astype(int)
 
-    print(df['income>50k'].value_counts())
     return df
 
 
