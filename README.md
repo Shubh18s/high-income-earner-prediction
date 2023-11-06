@@ -1,9 +1,9 @@
 # High income earner prediction
 The project predicts high income (>$50k/yr.) earners from 1994 census data.
 
-### Task
+## Task
 Based on the attributes of an individual such as age, education,
-marital-status, occupation, race etc. we try to predict whether they earn over $50k/year. 
+marital-status, occupation, race etc. we try to predict whether they earn over $50k/year. The `fnwgt` feature represents the weight for a particular record has been removed since the dataset itself is sufficient.
 
 ## Data
 The source of this data is the 1994 census data available on UCI.
