@@ -34,7 +34,7 @@ If you're on a linux os, run the below commands to download data.
 3. Once inside the shell run `python predict.py`
 4. The prediction service is now available on `http://localhost:9696`. You can test it using `predict-test.py` (Note - Don't forget the update the URL in the file)
 
-#### How to build the container image for prediction service
+#### How to build and run container for prediction service
 1. Navigate to the project folder and open a new terminal
 2. If you have docker installed
     1. Run `docker build -t high-income-prediction:latest .` to create the container image.
@@ -47,5 +47,9 @@ The prediction web service is deployed using Google cloud run and is available a
 You can acces it either using -
 - `predict-test.py` (Note - Don't forget the update the URL in the file)
 or
-- Postman application as shown in the image below
+- Postman application as shown in the image below -
+
 ![alt text](https://github.com/Shubh18s/high-income-earner-prediction/blob/6385ba9d20b63529fe17fedf6144c1ec6a15bdf4/high-income-earner-web-service-screenshot.png)
+
+The video demonstrating the deployed webservice can be found here - 
+`https://vimeo.com/manage/videos/881664892`
