@@ -3,7 +3,7 @@
 
 import requests
 
-# url = 'http://localhost:5000/predict'
+# url = 'http://localhost:9696/predict'
 url = 'https://high-income-prediction-image-mj4wgddl6q-uc.a.run.app/predict'
 
 customer_id = 'xyz-123'
