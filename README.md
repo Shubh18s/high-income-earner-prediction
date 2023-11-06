@@ -51,5 +51,4 @@ or
 
 ![alt text](https://github.com/Shubh18s/high-income-earner-prediction/blob/6385ba9d20b63529fe17fedf6144c1ec6a15bdf4/high-income-earner-web-service-screenshot.png)
 
-The video demonstrating the deployed webservice can be found here - 
-`https://vimeo.com/manage/videos/881664892`
+The video demonstrating the deployed webservice can be found here - https://vimeo.com/manage/videos/881664892
