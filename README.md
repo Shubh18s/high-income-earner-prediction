@@ -11,7 +11,7 @@ marital-status, occupation, race etc. we try to predict whether they earn over $
 
 #### Downloading data
 ` If you're on a linux os, run the below commands to download data. `
-- 1. data="https://archive.ics.uci.edu/static/public/2/adult.zip"
-- 2. wget $data
-- 2. sudo apt-get install unzip
-- 3. unzip -d data/ adult.zip
+- data="https://archive.ics.uci.edu/static/public/2/adult.zip"
+- wget $data
+- sudo apt-get install unzip
+- unzip -d data/ adult.zip
