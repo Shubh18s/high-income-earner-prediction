@@ -53,5 +53,10 @@ or
 
 The video demonstrating the deployed webservice can be found here - https://vimeo.com/manage/videos/881664892
 
+#### Instructions to deploy on Cloud Run
+1. Create a service account with Admin role for Cloud Build and make sure the service account has Admin role to Cloud Run.
+2. While in the project directory, run - `gcloud builds submit --config cloudbuild.yaml` using the cloud build service account. This should build and deploy the image as a service on Cloud Run.
+3. If for some reason the Cloud Run step fails, you can use the Google Cloud UI to directly deploy the image from Container Registry to Cloud Run as well.
+
 # Developer
 singh18shubhdeep@gmail.com
