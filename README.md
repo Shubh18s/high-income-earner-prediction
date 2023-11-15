@@ -44,7 +44,7 @@ If you're on a linux os, run the below commands to download data.
 The prediction web service is deployed using Google cloud run and is available at - `https://high-income-prediction-image-mj4wgddl6q-uc.a.run.app/predict`
 
 Here is a sample JSON you can use to test it - 
-<code>
+```json
 {
     "workclass": "state_gov", 
     "education": "bachelors", 
@@ -58,8 +58,8 @@ Here is a sample JSON you can use to test it -
     "capital_gain": 2174, 
     "capital_loss": 0, 
     "hours_per_week": 40
-} 
-</code>
+}```
+```
 You can acces it either using -
 - `predict-test.py` (Note - Don't forget the update the URL in the file)
 or
