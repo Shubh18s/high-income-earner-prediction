@@ -19,7 +19,6 @@ If you're on a linux os, run the below commands to download data.
 4. unzip -d data/ adult.zip
 5. Ensure data is present within the `/data` folder
 
-
 #### How to run training
 1. Clone the repository
 2. Navigate to the project folder and open a new terminal
@@ -44,6 +43,23 @@ If you're on a linux os, run the below commands to download data.
 ## Deployment
 The prediction web service is deployed using Google cloud run and is available at - `https://high-income-prediction-image-mj4wgddl6q-uc.a.run.app/predict`
 
+Here is a sample JSON you can use to test it - 
+```JSON
+{
+    "workclass": "state_gov", 
+    "education": "bachelors", 
+    "marital_status": "never_married", 
+    "occupation": "adm_clerical", 
+    "relationship": "not_in_family", 
+    "race": "white", 
+    "sex": "male", 
+    "native_country": "united_states", 
+    "age": 39, 
+    "capital_gain": 2174, 
+    "capital_loss": 0, 
+    "hours_per_week": 40
+}```
+
 You can acces it either using -
 - `predict-test.py` (Note - Don't forget the update the URL in the file)
 or
@@ -58,5 +74,5 @@ The video demonstrating the deployed webservice can be found here - https://vime
 2. While in the project directory, run - `gcloud builds submit --config cloudbuild.yaml` using the cloud build service account. This should build and deploy the image as a service on Cloud Run.
 3. If for some reason the Cloud Run step fails, you can use the Google Cloud UI to directly deploy the image from Container Registry to Cloud Run as well.
 
-# Developer
+## Contributors
 singh18shubhdeep@gmail.com
