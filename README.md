@@ -58,7 +58,8 @@ Here is a sample JSON you can use to test it -
     "capital_gain": 2174, 
     "capital_loss": 0, 
     "hours_per_week": 40
-}```
+}
+`
 
 You can acces it either using -
 - `predict-test.py` (Note - Don't forget the update the URL in the file)
